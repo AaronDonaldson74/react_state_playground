@@ -10,11 +10,15 @@ class Counter extends Component {
     }
     
     handleClickUp() {
-        this.setState(() => (this.state.number = this.state.number + 1));
+        this.setState((prevState) => ({number: prevState.number + 1}));
     }
 
     handleClickDown() {
-        this.setState(() => (this.state.number = this.state.number - 1));
+        // this.setState(() => (this.state.number = this.state.number - 1));
+        this.setState((prevState) => ({number: prevState.number - 1}))
+        // this.setState({
+        //     number: this.state.number - 1
+        // })
     }
     render () {
         return (
