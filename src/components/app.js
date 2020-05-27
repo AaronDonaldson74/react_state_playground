@@ -9,7 +9,7 @@ import Toggle from "./pages/toggle";
 import FontSizer from "./pages/font-sizer";
 import Align from "./pages/align";
 import ShowHide from "./pages/show-hide";
-// import Clock from "./pages/clock";
+import Clock from "./pages/clock";
 import ChangeColor from "./pages/change-color";
 
 
@@ -28,7 +28,7 @@ export default class App extends Component {
               <Route path="/font-sizer" component={FontSizer} />
               <Route path="/align" component={Align} />
               <Route path="/show-hide" component={ShowHide} />
-              {/* <Route path="/clock" component={Clock} /> */}
+              <Route path="/clock" component={Clock} />
               <Route path="/change-color" component={ChangeColor} />
             </Switch>
           </div>

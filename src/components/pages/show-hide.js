@@ -1,10 +1,13 @@
-import React from 'react';
+import React, { Component } from 'react';
 
-export default function() {
-    return (
-        <div>
-            <h3>Show-hide page...</h3>
-            <h4>Subtext ...</h4>
-        </div>
-    );
+class ShowHide extends Component {
+    render () {
+        return (
+            <div>
+                <h3>ShowHide page...</h3>
+                <h4>Subtext ...</h4>
+            </div>
+        );
+    }
 }
+export default ShowHide;

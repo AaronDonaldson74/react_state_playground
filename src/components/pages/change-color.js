@@ -1,10 +1,13 @@
-import React from 'react';
+import React, { Component } from 'react';
 
-export default function() {
-    return (
-        <div>
-            <h3>Change-color page...</h3>
-            <h4>Subtext ...</h4>
-        </div>
-    );
+class ChangeColor extends Component {
+    render () {
+        return (
+            <div>
+                <h3>ChangeColor page...</h3>
+                <h4>Subtext ...</h4>
+            </div>
+        );
+    }
 }
+export default ChangeColor;
