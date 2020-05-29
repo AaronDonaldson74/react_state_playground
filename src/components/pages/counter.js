@@ -32,3 +32,5 @@ class Counter extends Component {
     }
 }
 export default Counter;
+
+//TODO Try to include By the way.  You could also convert this all into one handleClick that accepts an argument to increase and decrease.
