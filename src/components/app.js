@@ -1,6 +1,10 @@
 import React, {Component} from 'react';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
 
+import { library } from "@fortawesome/fontawesome-svg-core";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faClock } from "@fortawesome/free-solid-svg-icons";
+
 
 import NavigationContainer from "./navigation/navigation-container";
 import Home from "./pages/home";
@@ -11,6 +15,8 @@ import Align from "./pages/align";
 import ShowHide from "./pages/show-hide";
 import Clock from "./pages/clock";
 import ChangeColor from "./pages/change-color";
+
+library.add(faClock);
 
 
 export default class App extends Component {

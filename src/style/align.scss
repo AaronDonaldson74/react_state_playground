@@ -1,6 +1,9 @@
-.wrapper {
+.align-page-container {
     display: flex;
     flex-direction: column;
     align-items: center;
-    
+
+    .btn-wrapper {
+        display: flex;
+    }
 }

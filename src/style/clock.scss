@@ -1,0 +1,10 @@
+.clock-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .clock-wrapper {
+        font-size: 5em;
+        color: blue;
+    }
+}

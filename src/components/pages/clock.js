@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+
 
 class Clock extends Component {
     constructor() {
@@ -25,8 +27,10 @@ class Clock extends Component {
 
     render () {
         return (
-            <div>
-                <h1>Clock</h1>
+            <div className="clock-container">
+                <div className="clock-wrapper">
+                    <FontAwesomeIcon icon="clock" />
+                </div>
                 <h2>{this.state.date.toLocaleTimeString()}</h2>
             </div>
         );
