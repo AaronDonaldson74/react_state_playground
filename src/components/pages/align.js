@@ -24,12 +24,12 @@ class Align extends Component {
                     <h3>Align page...</h3>
                     </div>
                     <div className="btn-wrapper">
-                        <button onClick={() => this.handleClick("Left")}>Left</button>
-                        <button onClick={() => this.handleClick("Center")}>Center</button>
-                        <button onClick={() => this.handleClick("Right")}>Right</button>
+                        <button className="btn" onClick={() => this.handleClick("Left")}>Left</button>
+                        <button className="btn" onClick={() => this.handleClick("Center")}>Center</button>
+                        <button className="btn" onClick={() => this.handleClick("Right")}>Right</button>
                     </div>
                 </div>
-                    <div style={{textAlign: `${this.state.alignment}`}}>This text is aligned {this.state.alignment}!</div>
+                    <div className="align-text" style={{textAlign: `${this.state.alignment}`}}>This text is aligned {this.state.alignment}!</div>
             </div>
         );
     }

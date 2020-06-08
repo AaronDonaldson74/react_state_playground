@@ -5,6 +5,7 @@
 
     .clock-wrapper {
         font-size: 5em;
-        color: blue;
+        color: $burgundy;
+        filter: drop-shadow(.2em .2em .1em black)
     }
 }

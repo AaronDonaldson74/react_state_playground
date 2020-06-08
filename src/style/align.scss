@@ -2,8 +2,14 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    font-size: 2em;
 
     .btn-wrapper {
         display: flex;
     }
+
+}
+
+.align-text {
+    font-size: 2em;
 }

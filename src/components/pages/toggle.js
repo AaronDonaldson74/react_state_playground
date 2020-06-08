@@ -18,9 +18,9 @@ class Toggle extends Component {
 
     render () {
         return (
-            <div>
+            <div className="wrapper">
             <h1>This is a Toggle Button!</h1>
-            <button onClick={this.toggleGreeting}>Toggle Here
+            <button className="btn" onClick={this.toggleGreeting}>Toggle Here
             </button>
             <div><h1>{this.state.isToggleOn ? 'Hello' : 'Go Away Now'}</h1></div>
             </div>
