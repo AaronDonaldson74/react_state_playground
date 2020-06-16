@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-class Align extends Component {
+class AlignClass extends Component {
     constructor() {
         super();
         this.state = {
@@ -21,7 +21,7 @@ class Align extends Component {
             <div>
                 <div className="align-page-container">
                     <div>
-                    <h3>Align page...</h3>
+                    <h3>Align page...with state!</h3>
                     </div>
                     <div className="btn-wrapper">
                         <button className="btn" onClick={() => this.handleClick("Left")}>Left</button>
@@ -34,4 +34,4 @@ class Align extends Component {
         );
     }
 }
-export default Align;
+export default AlignClass;

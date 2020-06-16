@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 
-class Clock extends Component {
+class ClockClass extends Component {
     constructor() {
         super();
         this.state={
@@ -28,6 +28,7 @@ class Clock extends Component {
     render () {
         return (
             <div className="clock-container">
+                <h2>You're seeing the time by state.</h2>
                 <div className="clock-wrapper">
                     <FontAwesomeIcon icon="clock" />
                 </div>
@@ -38,4 +39,4 @@ class Clock extends Component {
 }
 
 
-export default Clock;
+export default ClockClass;

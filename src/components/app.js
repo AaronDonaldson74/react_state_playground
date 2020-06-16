@@ -8,14 +8,13 @@ import { fab } from "@fortawesome/free-brands-svg-icons"
 
 import NavigationContainer from "./navigation/navigation-container";
 import Home from "./pages/home";
-import Counter from "./pages/counter";
+import Counter from "./pages/counter/counter";
 import Toggle from "./pages/toggle";
 import FontSizer from "./pages/font-sizer";
-import Align from "./pages/align";
+import Align from "./pages/align/align";
 import ShowHide from "./pages/show-hide";
-import Clock from "./pages/clock";
+import Clock from "./pages/clock/clock";
 import ChangeColor from "./pages/change-color";
-import CounterHooks from './pages-hooks/counter-hooks';
 
 library.add(fab,faClock );
 
