@@ -22,7 +22,7 @@ const NavigationComponent = props => {
                 </div>
                 <div className="nav-link-wrapper">
                     <NavLink to="/counter" activeClassName="nav-link-active">
-                        Counter
+                        Counter 
                     </NavLink>
                 </div>
                 <div className="nav-link-wrapper">

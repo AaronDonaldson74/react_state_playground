@@ -15,6 +15,7 @@ import Align from "./pages/align";
 import ShowHide from "./pages/show-hide";
 import Clock from "./pages/clock";
 import ChangeColor from "./pages/change-color";
+import CounterHooks from './pages-hooks/counter-hooks';
 
 library.add(fab,faClock );
 
@@ -26,7 +27,7 @@ export default class App extends Component {
         <Router>
           <div>
             <NavigationContainer 
-            />
+            />            
             <Switch>
               <Route exact path="/" component={Home} />
               <Route path="/counter" component={Counter} />
